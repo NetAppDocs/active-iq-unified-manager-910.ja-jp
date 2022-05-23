@@ -2787,8 +2787,6 @@
   <block id="4713082ec3f35b415638abeba331ad6c" category="list-text">クラスタ内のボリュームの容量と使用状況に関する詳細情報を表示するには、表示メニューで容量：すべてのボリュームビューを選択します。</block>
   <block id="0f5ff7824e124b9145d27f63cdc1d5fd" category="list-text">すべての詳細を表示するには、ボリューム名をクリックします。</block>
   <block id="0ff278b9f9cf51a445b0a588d858a62a" category="list-text">* オプション：最小限の詳細ダイアログボックスで * 関連項目を表示 * をクリックして、ボリュームに関連するオブジェクトを表示します。</block>
-  <block id="a68af024b1e93239842b9fe11f210fdd" category="inline-link-macro">ケンシヨウセイ / ホリユウムヘエシ</block>
-  <block id="718687c644ada88bc9596f01fa1a0c05" category="paragraph"><block ref="718687c644ada88bc9596f01fa1a0c05" category="inline-link-macro-rx"></block></block>
   <block id="d315718e318a7be7ad37473a312a1af2" category="inline-link-macro">使用可能なボリューム容量グラフを表示するレポートの作成</block>
   <block id="00d7e1662e9b95a42822f0d6ac5f9d93" category="paragraph"><block ref="00d7e1662e9b95a42822f0d6ac5f9d93" category="inline-link-macro-rx"></block></block>
   <block id="5fddd99dae082074459eed58deb956df" category="summary">データ損失やデータ破損が発生した場合、 Unified Manager を以前の安定した状態にリストアすることでデータ損失を最小限に抑えることができます。Unified Manager データベースは、 Unified Manager メンテナンスコンソールを使用してローカルとリモートのどちらの Red Hat Enterprise Linux または CentOS システムにもリストアできます。</block>
@@ -3464,10 +3462,6 @@
   <block id="d804f14fed19d038031c63aaf63b1e60" category="paragraph">サポートディレクトリの内容が表示され、既存のサポートバンドルをすべて確認できます。</block>
   <block id="4ea80963e3ffca1f675de4b70c2d5529" category="list-text">サポートバンドルのコピー先となるディレクトリを選択します。</block>
   <block id="2e5c0e84121900760b963dfd8293ed90" category="list-text">コピーするサポートバンドルを選択し、ツールを使用して Unified Manager サーバからローカルシステムにファイルをコピーします。</block>
-  <block id="ad33d03e901ed8ed38f8e0d4fc6c3943" category="inline-link">Filezilla -<block ref="f27bb4f2df782f8d161ce6a58c23dfc8" category="inline-link-rx"></block></block>
-  <block id="e295733f62179fad76f68948d59ceb8e" category="paragraph"><block ref="e295733f62179fad76f68948d59ceb8e" category="inline-link-rx"></block></block>
-  <block id="60e77e93661a419436dd6e9a13601c8e" category="inline-link">WinSCP -<block ref="69901d6c3168572fb93db04c8aad9aba" category="inline-link-rx"></block></block>
-  <block id="2151674523016a699197dcd7b05b8ae2" category="paragraph"><block ref="2151674523016a699197dcd7b05b8ae2" category="inline-link-rx"></block></block>
   <block id="f49cdfdbc702b165c54765bf1da49167" category="summary">グループとは、種類の異なるストレージオブジェクト（クラスタ、 SVM 、またはボリューム）の動的な集まりです。Unified Manager でグループを作成することで、一連のストレージオブジェクトを簡単に管理できます。グループのメンバーは、その時点で Unified Manager が監視しているストレージオブジェクトに応じて変更される場合があります。</block>
   <block id="1da81761cbbc9d5e818a6f12e1665153" category="doc">グループとは</block>
   <block id="81a7f09b538b9837d99fde2a0d8d5a7a" category="list-text">各グループには一意の名前が付けられます。</block>
@@ -11522,4 +11516,5 @@
   <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">関係 / 過去 1 カ月の転送速度ビュー</block>
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">ストレージを監視および管理する</block>
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">ONTAP の問題を Unified Manager から直接修正または管理する</block>
+  <block id="55d42c07c7a3bf8612627277cc3d1372" category="paragraph">本製品で使用されているサードパーティの著作権およびライセンスに関する情報。</block>
 </blocks>
