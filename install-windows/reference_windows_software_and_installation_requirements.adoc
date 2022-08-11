@@ -18,7 +18,11 @@ Unified Manager を Windows に正しくインストールするには、 Unifie
 
 == オペレーティングシステムソフトウェア
 
-Unified Manager は、 Windows の次のエディションにインストールできます。 * Microsoft Windows Server 2016 Standard Edition および Datacenter Edition * Microsoft Windows Server 2019 Standard Edition および Datacenter Edition
+Unified Managerは次のエディションのWindowsにインストールできます。
+
+* Microsoft Windows Server 2016 Standard EditionおよびDatacenter Edition
+* Microsoft Windows Server 2019 Standard EditionおよびDatacenter Edition
+
 
 Unified Manager は、以下の言語で 64 ビットの Windows オペレーティングシステムでサポートされています。
 
@@ -77,17 +81,11 @@ Unified Manager は WildFly Web サーバに導入されます。WildFly 19.0.0 
 * Microsoft IIS World Wide Web Publishing サービスを無効にして、ポート 80 および 443 が空いていることを確認する必要があります。
 * インストール中は、「 Windows Installer RDS Compatibility 」のリモートデスクトップセッションホスト設定が無効になっていることを確認してください。
 * UDP ポート 514 を他のサービスで使用されないように空けておく必要があります。
+* Windowsシステムにアクティブなウィルス対策ソフトウェアがインストールされている場合、Unified Managerのインストールが失敗することがあります。Unified Managerをインストールする前に、システムのウィルススキャンソフトウェアをすべて無効にする必要があります。インストールが完了したら、次のパスをウイルス対策スキャンから手動で除外してください。
++
+** Unified Managerのデータディレクトリ。たとえば、「C：\ProgramData\NetApp\OnCommandAppData\`です
+** Unified Managerのインストールディレクトリ。たとえば、「\C:\Program Files\NetApp\`です
+** MySQLのデータ・ディレクトリ（例：C：\ProgramData\MySQL\MySQLServerData）
 
 
-[NOTE]
-====
-Unified Manager のインストールプログラムは、 Windows Defender で次の項目を除外するように設定します。
 
-* Unified Manager データディレクトリ
-* Unified Manager インストールディレクトリ
-* MySQL データディレクトリ
-
-
-サーバに別のウィルス対策ソフトウェアがインストールされている場合は、これらを手動で除外する必要があります。
-
-====
