@@ -9811,7 +9811,6 @@
   <block id="ae48afa96207ddbaa3cc0fd8af90a98e" category="list-text">リストア先のクラスタ、 SVM 、ボリュームを選択します。</block>
   <block id="bc621350fbc23e6ec1741153ed6e331f" category="list-text">名前 (Name) テーブルで ' ディレクトリ名を選択します</block>
   <block id="2d0fcfb8d7bf7c097d1eab05f1ec38bf" category="list-text">[ * ディレクトリの選択 * ] をクリックします。</block>
-  <block id="ef2e98478d29a26f02db2c56ea13bc57" category="paragraph">Cloud Volumes ONTAP HA クラスタ間のリストア処理が NDMP のエラーで失敗する場合は、ソースシステムのクラスタ管理 LIF と通信できるように、デスティネーションクラスタで明示的な AWS ルートを追加しなければならないことがあります。この設定手順は OnCommand Cloud Manager で実行します。</block>
   <block id="7331ad8836c59b4b432445f8fc5c99e4" category="summary">バージョンに依存しないレプリケーションとバックアップオプション機能を使用して SnapMirror 関係を作成できます。バックアップオプション機能を使用すると、 SnapMirror 保護を実装できます。また、デスティネーションの場所でバックアップコピーの複数のバージョンを保持することもできます。</block>
   <block id="e36facec58d4fd1ab5145c36e21c2862" category="doc">バージョンに依存しないレプリケーションとバックアップオプションを使用した SnapMirror 関係の作成</block>
   <block id="3548e0e1f21a7e1571e5fe3cbe618416" category="list-text">ソースとデスティネーションの SVM でそれぞれ、 SnapVault ライセンスが有効になっている必要があります。</block>
@@ -11438,8 +11437,6 @@
   <block id="e06e49da3fb49fecd85244c11ba7754d" category="list-text">Snapshotコピーは、同じバージョンのActive IQ Unified Manager にのみリストアできます。</block>
   <block id="839fa2b63b981f33da59323dbb6922ca" category="doc">WindowsでのSnapshotコピーのデスティネーションの指定</block>
   <block id="895ab5c620e863020033929131d3f188" category="list-text">メンテナンスコンソールを終了し、Active IQ Unified Manager インターフェイスを起動してSnapshotコピーのスケジュールを作成します。</block>
-  <block id="1024da4d1e601efc60b6d334667fb372" category="inline-link-macro">AIQUMでAIQCASecureルールを手動で更新する方法</block>
-  <block id="ab8d738b545ae820bcf3e08c1381f9d5" category="paragraph">詳細については、次の技術情報アーティクル（KB）を参照してください。 <block ref="2880d9e8074f03320d24915675f84536" category="inline-link-macro-rx"></block></block>
   <block id="97bbb871095678061fcc80b68b1e751b" category="paragraph">クラスタ内のすべてのノードの使用済みパフォーマンス容量の値が比較され、いずれかのノードがしきい値の30%を超えて24時間以上経過していないかどうかが確認されます。これは警告イベントです。</block>
   <block id="4b182fd97f4652b30a2fb7e34f4c9bf6" category="paragraph">Active IQ Unified Manager 9.10の新機能、制限事項、および既知の問題の概要を示します。</block>
   <block id="e3474a37b8b8000684dda99833abd480" category="sidebar">Active IQ Unified Manager 9.10のドキュメント</block>
@@ -11522,4 +11519,7 @@
   <block id="098f9c8760d143ea65998c16b9355dc8" category="list-text">インストールシステムでUnified Managerのバンドルを解凍したディレクトリに、ダウンロードしたパッケージをコピーします。</block>
   <block id="eb48c0935181b533718e0dc01d2336f0" category="list-text">ディレクトリをそのディレクトリに変更し、次のコマンドを実行して欠落パッケージとその依存関係をインストールします。</block>
   <block id="ccb2222b0ddd075041c68e90def28092" category="paragraph">これでUnified Managerのアップグレードプロセスは完了です。サポートされているWebブラウザの新しいウィンドウに表示されたIPアドレスまたはURLを入力してUnified Manager Web UIを起動し、前に設定したメンテナンスユーザの名前（umadmin）とパスワードを使用してログインします。</block>
+  <block id="f76a02997799aac32e213591073ce977" category="inline-link-macro">Active IQ Unified Manager でAICASecureルールを手動で更新する方法</block>
+  <block id="430faf3dc4359c7567b9aa2464e05a7b" category="paragraph">詳細については、次の技術情報アーティクル（KB）を参照してください。<block ref="5bddd87587ead14d65a9ed529343bb03" category="inline-link-macro-rx"></block>。</block>
+  <block id="747c77249313eab0521246ecfbad977b" category="paragraph">Cloud Volumes ONTAP HA クラスタ間のリストア処理が NDMP のエラーで失敗する場合は、ソースシステムのクラスタ管理 LIF と通信できるように、デスティネーションクラスタで明示的な AWS ルートを追加しなければならないことがあります。この設定手順は、BlueXPを使用して実行します。</block>
 </blocks>
