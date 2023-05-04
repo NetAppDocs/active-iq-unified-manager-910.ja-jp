@@ -11057,9 +11057,6 @@
   <block id="7f874cc30f7d82ad122626a3fcf7a4f4" category="paragraph">すべてのオペレーションがシリアルに実行されるように修正します。このため、 [ 進行中 ] パネルを表示すると、 [ ステータス *- 進行中 ] が表示されるオブジェクトと、 [ ステータス *Scheduled （ステータス * スケジュール済み） ] が表示されるオブジェクトがあります。これは、実装を待機していることを意味します。</block>
   <block id="fee984743f91b24dec86f77ceb6dd622" category="summary">クラスタセットアップページを使用して、クラスタのインベントリを表示できます。名前や IP アドレス、通信ステータスなど、クラスタに関する詳細を確認できます。</block>
   <block id="ee45945ca017877dfd40f7584086a95c" category="doc">監視対象クラスタのリストの表示</block>
-  <block id="9dc7252bbef57ce4f0d03bcddb84711c" category="paragraph">クラスタのリストは、収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。</block>
-  <block id="45ec896bf3e43c4d453f4fa4f22106ca" category="inline-link-macro">セツテイ / クラスタテエタソオスヘエシ</block>
-  <block id="01b124e9964263d377fc183d69afb2ed" category="paragraph"><block ref="01b124e9964263d377fc183d69afb2ed" category="inline-link-macro-rx"></block></block>
   <block id="03af4afceb5e7c752917f0234eb626d6" category="summary">特定のオブジェクトにすばやくアクセスするには、メニューバーの上部にある Search All Storage Objects フィールドを使用します。すべてのオブジェクトをグローバルに検索するこの方法を使用すると、特定のオブジェクトをタイプ別にすばやく見つけることができます。検索結果はストレージオブジェクトのタイプ別に表示され、ドロップダウンメニューを使用してさらにオブジェクト別に絞り込むことができます。</block>
   <block id="de010e6e50e554c3e541c863fa9a0b9c" category="paragraph">特定のオブジェクトにすばやくアクセスするには、メニューバーの上部にある「すべてのストレージオブジェクトの検索」フィールドを使用します。すべてのオブジェクトをグローバルに検索するこの方法を使用すると、特定のオブジェクトをタイプ別にすばやく見つけることができます。検索結果はストレージオブジェクトのタイプ別に表示され、ドロップダウンメニューを使用してさらにオブジェクト別に絞り込むことができます。</block>
   <block id="436903ec875ba98d74946efb3236fbfb" category="list-text">このタスクを実行するには、オペレータ、アプリケーション管理者、またはストレージ管理者のいずれかのロールが割り当てられている必要があります。</block>
@@ -11369,7 +11366,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">リソースの追加</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager のビデオ</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager のブログです</block>
-  <block id="b4326b5cab8385bbedf7c504d8569004" category="sidebar">以前のバージョンのドキュメント</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">Linux システムに Unified Manager をインストールします</block>
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">Windows システムに Unified Manager をインストールする</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">VMware vSphere システムに Unified Manager をインストールします</block>
@@ -11541,4 +11537,8 @@
   <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">Storage VMの健常性の詳細</block>
   <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">クラスタの健常性の詳細</block>
   <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">アグリゲートの健常性の詳細</block>
+  <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> は、MySQLサーバの起動と停止に必要なデーモンプログラムです。</block>
+  <block id="5d0fa88ad955e8f7f8eefb9aa638abe4" category="paragraph">*必要なもの*</block>
+  <block id="13490f69efe6e04b704eff78476a43b8" category="paragraph">Unified Managerで管理しているストレージ環境内のすべてのクラスタが表示されます。クラスタのリストは、収集状態の重大度レベル列でソートされます。列ヘッダーをクリックすると、別の列でクラスタをソートできます。</block>
+  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9以前のドキュメント</block>
 </blocks>
